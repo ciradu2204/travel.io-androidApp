@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout style="@style/match_parentAll"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="10dp"
+            style="@style/wrap_contentAll">
+
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/wrap_contentAll">
+                <TextView
+                    android:text="M6 southbound within J19"
+                    android:layout_margin="5dp"
+                    android:id="@+id/info_window_title"
+                    android:layout_width="wrap_content"
+
+                    style="@style/header3"/>
+
+
+                <TextView
+                    android:drawableStart="@drawable/circle"
+                    android:drawablePadding="10dp"
+                    android:text="Upcoming"
+                    android:textColor="@color/black"
+                    android:id="@+id/info_window_status"
+                    style="@style/normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                 style="@style/wrap_contentAll">
+                <ImageView
+                    android:src="@drawable/next_foreground"
+                    style="@style/wrap_contentAll"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+     </androidx.cardview.widget.CardView>
+</LinearLayout>

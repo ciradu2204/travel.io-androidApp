@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/match_parentAll"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal"
+         style="@style/wrap_content_matchParent">
+
+        <TextView
+             android:text="Journey Planner"
+             android:layout_width="0dp"
+             android:gravity="center_vertical"
+             android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+             style="@style/header2"/>
+
+        <ImageView
+            android:onClick="goBackHome"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:scaleType="fitEnd"
+            android:layout_height="50dp"
+            android:src="@drawable/home_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wrap_content_matchParent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginVertical="20dp"
+            android:textColor="@color/black"
+            style="@style/header3"
+            android:text="Choose Date:"/>
+
+        <EditText
+            style="@style/normal"
+            android:textColor="@color/black"
+            android:id="@+id/journeyDate"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Enter journey date"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/plannerButton"
+        android:layout_marginTop="20dp"
+        android:onClick="findEvents"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Find Events"
+        style="@style/Buttons"/>
+
+    <LinearLayout
+        android:id="@+id/road_planner_progressbar"
+        android:gravity="center"
+        style="@style/match_parentAll">
+
+        <ProgressBar
+            android:indeterminateTint="@color/primary_color"
+            android:layout_height="100dp"
+            android:layout_width="100dp"/>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/plannerFrameLayout"
+       style="@style/match_parentAll"/>
+
+</LinearLayout>

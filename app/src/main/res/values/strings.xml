@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MPD_CW</string>
+    <string name="welcome_to_travel_io">Travel.io</string>
+    <string name="current_incidents">Incidents</string>
+    <string name="route_planner">Route Planner</string>
+    <string name="description">Plan your route and travel any place in England faster!</string>
+    <string name="discover">Discover</string>
+    <string name="incidentDescription">Find current, past, and future road works</string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="filter">filter</string>
+    <string name="homeIcon">homeIcon</string>
+    <string name="api_key">AIzaSyA0fs_LY4we66huORNgzDUFYr7kdtyAj6s</string>
+
+    <string name="region">Region</string>
+    <string name="find_route">Find Route</string>
+
+    //the spinner array for sorting
+    <string-array name="sortArray">
+        <item>Newest to Oldest</item>
+        <item>Oldest to Newest</item>
+    </string-array>
+</resources>

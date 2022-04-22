@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    style="@style/match_parentAll"
+    android:background="@color/white_smoke"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:gravity="end"
+       android:onClick="cancelFilter"
+       style="@style/wrap_content_matchParent">
+       <ImageView
+           android:src="@drawable/cancel_foreground"
+           style="@style/wrap_contentAll"/>
+   </LinearLayout>
+
+    <TextView
+        style="@style/header2"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Sort and Filters"/>
+
+    <LinearLayout
+         android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical"
+        style="@style/match_parentAll">
+        <TextView
+            style="@style/header3"
+             android:text="STATUS"/>
+
+        <View
+             android:background="@color/gray"
+              style="@style/Divider" />
+
+        <LinearLayout
+            android:gravity="center"
+     style="@style/wrap_content_matchParent">
+        <RadioGroup
+            android:id="@+id/categoryChoices"
+            style="@style/wrap_contentAll"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/pint_out_line"
+            android:checkedButton="@+id/offer"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/All"
+                android:checked="true"
+                android:layout_width="100dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="All"
+                />
+
+            <RadioButton
+                android:id="@+id/upcoming"
+                android:layout_width="100dp"
+                android:paddingStart="10dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="Upcoming"
+                />
+
+            <RadioButton
+                android:id="@+id/current"
+                android:layout_width="100dp"
+                android:paddingStart="10dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="Ongoing"
+                />
+
+            <RadioButton
+                android:id="@+id/past"
+                android:layout_width="100dp"
+                android:paddingStart="10dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="Past"
+                tools:ignore="RtlSymmetry" />
+        </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            style="@style/header3"
+            android:layout_marginTop="10dp"
+            android:text="SORT"/>
+
+        <View
+            android:background="@color/gray"
+            style="@style/Divider" />
+
+           <Spinner
+               android:layout_marginVertical="10dp"
+               android:id="@+id/spinnerSort"
+               style="@style/normal"
+               android:spinnerMode="dropdown"/>
+
+        <TextView
+             style="@style/header3"
+            android:layout_marginTop="10dp"
+            android:text="CATEGORY"/>
+
+        <View
+            android:background="@color/gray"
+            style="@style/Divider" />
+
+        <Spinner
+            android:layout_marginVertical="10dp"
+            android:id="@+id/spinnerCategory"
+            style="@style/normal"
+            android:spinnerMode="dropdown"/>
+
+        <TextView
+            style="@style/header3"
+            android:layout_marginTop="10dp"
+            android:text="REGION"/>
+
+        <View
+            android:background="@color/gray"
+            style="@style/Divider" />
+
+        <Spinner
+            android:layout_marginVertical="10dp"
+            android:id="@+id/spinnerRegion"
+            style="@style/normal"
+            android:spinnerMode="dropdown"/>
+
+        <TextView
+            style="@style/header3"
+            android:layout_marginTop="10dp"
+            android:text="ROAD"/>
+
+        <View
+            android:background="@color/gray"
+            style="@style/Divider" />
+
+        <Spinner
+            android:layout_marginVertical="10dp"
+            android:id="@+id/spinnerRoad"
+            style="@style/normal"
+            android:spinnerMode="dropdown"/>
+
+        <LinearLayout
+            android:layout_marginVertical="10dp"
+            android:gravity="center_horizontal"
+            style="@style/wrap_content_matchParent">
+
+
+            <Button
+                android:id="@+id/submit"
+                android:text="Filter"
+                android:textColor="@color/white"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:onClick="filterIncidents"
+                android:background="@color/primary_color"
+                style="@style/Buttons"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+

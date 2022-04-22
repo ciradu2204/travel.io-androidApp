@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/match_parentAll"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/customHeight_matchParent"
+        android:layout_height="200dp"
+        android:alpha="0.8"
+        android:id="@+id/backgroundImage"
+        android:foreground="@color/transparent"
+         android:background="@drawable/roadworks">
+
+        <ImageView
+            android:id="@+id/prev"
+            android:onClick="goToEvents"
+            android:src="@drawable/prev_foreground"
+            style="@style/wrap_contentAll"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/match_parentAll"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_marginTop="10dp"
+            android:text="M6 southbound within J19"
+            style="@style/header3"/>
+
+        <TextView
+            style="@style/normal"
+            android:id="@+id/itemLocation"
+            android:drawablePadding="-10dp"
+            android:layout_marginTop="10dp"
+               android:textColor="@color/black"
+             android:text="Cherish East, North West "
+            app:drawableStartCompat="@drawable/location_foreground" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="Incident"
+            android:drawableStart="@drawable/category_foreground"
+            android:id="@+id/itemCategory"
+            android:drawablePadding="-10dp"
+            android:layout_marginTop="10dp"
+            style="@style/normal"
+
+            />
+
+        <TextView
+            android:id="@+id/itemStatus"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="10dp"
+            style="@style/normal"
+             android:text="Ongoing"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@drawable/circle" />
+
+          <TextView
+              android:id="@+id/itemDate"
+              style="@style/normal"
+              android:drawablePadding="-10dp"
+              android:layout_marginTop="20dp"
+              android:text="2nd March - 3rd March"
+              android:textColor="@color/black"
+              app:drawableStartCompat="@drawable/calendar_foreground" />
+
+
+        <TextView
+            android:id="@+id/itemTime"
+            style="@style/normal"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="7 - 8 am"
+            app:drawableStartCompat="@drawable/time_foreground" />
+
+        <TextView
+            android:id="@+id/itemDescr"
+           style="@style/header3"
+            android:text="Description"
+            />
+
+        <TextView
+            style="@style/normal"
+             android:id="@+id/itemDescription"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis, eros eu pharetra imperdiet, lorem nulla auctor mi, dapibus imperdiet nunc lectus non neque. Suspendisse potenti."/>
+
+         <FrameLayout
+             android:layout_marginTop="20dp"
+              style="@style/match_parentAll"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

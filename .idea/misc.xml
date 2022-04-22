@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/calendar_foreground.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/cancel_foreground.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/category_foreground.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/filter.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/filter_background.xml" value="0.10925925925925926" />
+        <entry key="app/src/main/res/drawable/filter_foreground.xml" value="0.10925925925925926" />
+        <entry key="app/src/main/res/drawable/home_background.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/home_foreground.xml" value="0.10925925925925926" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/list_foreground.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/location_background.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/location_foreground.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/map_foreground.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/next_foreground.xml" value="0.2675925925925926" />
+        <entry key="app/src/main/res/drawable/pint_out_line.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/prev_foreground.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/rectange.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/roadSign_background.xml" value="0.26974358974358975" />
+        <entry key="app/src/main/res/drawable/road_background.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/road_foreground.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/drawable/road_trip2_background.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/road_trip2_foreground.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/road_trip_background.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/drawable/roadworks.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/search_background.xml" value="0.2212962962962963" />
+        <entry key="app/src/main/res/drawable/search_foreground.xml" value="0.2212962962962963" />
+        <entry key="app/src/main/res/drawable/time_foreground.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable/toggle_widget_background.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout-land/filter.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout-land/itemlist_landscape.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout-land/items_list.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11854103343465046" />
+        <entry key="app/src/main/res/layout/custom_info_window.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/filter.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/filter_landscape.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/incident_fragmentlist.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/incident_fragmentmap.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/incidents.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/incidents_landscape.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/item_listlandscape.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/item_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/itemlist_landscape.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/items_list.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/listview.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/planroute.xml" value="0.10190217391304347" />
+        <entry key="app/src/main/res/layout/routeplanner.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/location.xml" value="0.22407407407407406" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/road_trip.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/road_trip2.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/search.xml" value="0.14895833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

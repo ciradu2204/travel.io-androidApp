@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    style="@style/match_parentAll"
+    android:backgroundTint="@color/white_smoke"
+     android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        style="@style/wrap_content_matchParent"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/header3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/abhayalibre_medium"
+            android:gravity="center_vertical"
+            android:letterSpacing="0.01"
+            android:text="@string/discover"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.4"
+            android:contentDescription="@string/homeIcon"
+            android:focusable="true"
+            android:onClick="gotoHome"
+            android:layout_gravity="center"
+            android:scaleType="fitEnd"
+            android:src="@drawable/home_foreground" />
+
+    </LinearLayout>
+
+    <TextView
+       style="@style/wrap_content_matchParent"
+        android:paddingBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/incidentDescription"/>
+
+    <LinearLayout
+         style="@style/wrap_content_matchParent">
+
+        <SearchView
+            android:id="@+id/searchItems"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/filter"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.4"
+            android:contentDescription="@string/filter"
+            android:onClick="filter"
+            android:focusable="true"
+            android:layout_gravity="center"
+            android:scaleType="fitEnd"
+            android:src="@drawable/filter_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        style="@style/wrap_content_matchParent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="end">
+
+        <RadioGroup
+            android:id="@+id/toggle"
+            style="@style/wrap_contentAll"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pint_out_line"
+            android:checkedButton="@+id/offer"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/list"
+                android:drawableStart="@drawable/list_foreground"
+                android:layout_width="100dp"
+                android:paddingStart="10dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="@string/list"
+              />
+
+            <RadioButton
+                android:id="@+id/map"
+                android:drawableStart="@drawable/map_foreground"
+                android:layout_width="100dp"
+                android:paddingStart="10dp"
+                android:drawablePadding="-40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                 android:layout_weight="1"
+                android:background="@drawable/toggle_widget_background"
+                android:button="@null"
+                android:gravity="center"
+                android:minWidth="50dp"
+                android:minHeight="48dp"
+                android:text="@string/map"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/progress_circularlayout"
+          android:gravity="center"
+         style="@style/match_parentAll">
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:indeterminateTint="@color/primary_color"
+            android:visibility="visible"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            >
+        </ProgressBar>
+
+    </LinearLayout>
+
+   <FrameLayout
+       android:id="@+id/frame_layout"
+       style="@style/wrap_contentAll"/>
+
+
+
+
+
+
+</LinearLayout>
