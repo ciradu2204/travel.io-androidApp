@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.readers;
 
 import android.util.Log;
 

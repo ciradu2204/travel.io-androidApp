@@ -1,8 +1,13 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.repositories;
 
 
 import android.app.Activity;
 
+
+import com.example.mpd_cw.objects.Event;
+import com.example.mpd_cw.parsers.RssParser;
+import com.example.mpd_cw.readers.RssReader;
+import com.example.mpd_cw.viewModels.SharedViewModel;
 
 import java.util.ArrayList;
 import java.util.HashSet;

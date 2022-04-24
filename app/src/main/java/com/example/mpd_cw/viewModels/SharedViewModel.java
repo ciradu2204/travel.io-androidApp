@@ -1,12 +1,12 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.viewModels;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.mpd_cw.objects.Event;
+
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 //Cynthia Iradukunda - s1906581
 
 public class SharedViewModel extends ViewModel {

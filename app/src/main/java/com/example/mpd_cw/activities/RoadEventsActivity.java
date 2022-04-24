@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.activities;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -19,6 +19,13 @@ import androidx.appcompat.content.res.AppCompatResources;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.example.mpd_cw.objects.Event;
+import com.example.mpd_cw.fragments.ListFragment;
+import com.example.mpd_cw.fragments.MapCustomFragment;
+import com.example.mpd_cw.R;
+import com.example.mpd_cw.repositories.Repository;
+import com.example.mpd_cw.viewModels.SharedViewModel;
 
 import java.util.ArrayList;
 import java.util.Collections;

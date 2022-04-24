@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.activities;
 
  import android.app.DatePickerDialog;
  import android.content.DialogInterface;
@@ -14,6 +14,12 @@ import androidx.annotation.Nullable;
  import androidx.appcompat.app.AppCompatActivity;
  import androidx.lifecycle.Observer;
  import androidx.lifecycle.ViewModelProvider;
+
+ import com.example.mpd_cw.objects.Event;
+ import com.example.mpd_cw.fragments.MapCustomFragment;
+ import com.example.mpd_cw.R;
+ import com.example.mpd_cw.repositories.Repository;
+ import com.example.mpd_cw.viewModels.SharedViewModel;
 
  import java.text.ParseException;
  import java.text.SimpleDateFormat;

@@ -19,20 +19,20 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAX0a6vKpR0tZxX_i-Dp9aj0WNGSDGtf3o"/>
 
-        <activity android:name=".RoadEventsActivity">
+        <activity android:name=".activities.RoadEventsActivity">
 
         </activity>
-        <activity android:name=".RoutePlannerActivity">
+        <activity android:name=".activities.RoutePlannerActivity">
 
         </activity>
-        <activity android:name=".filterActivity">
+        <activity android:name=".activities.filterActivity">
 
         </activity>
-        <activity android:name=".ListItemActivity">
+        <activity android:name=".activities.ListItemActivity">
 
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

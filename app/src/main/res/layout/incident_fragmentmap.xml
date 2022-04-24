@@ -4,7 +4,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginVertical="20dp"
-    tools:context=".MapCustomFragment"
+    tools:context=".fragments.MapCustomFragment"
     style="@style/match_parentAll">
 
  <fragment

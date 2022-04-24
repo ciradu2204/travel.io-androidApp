@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.activities;
 
 
 import android.content.Intent;
@@ -14,6 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+
+import com.example.mpd_cw.R;
+import com.example.mpd_cw.repositories.Repository;
 
 import java.util.ArrayList;
 import java.util.Collections;

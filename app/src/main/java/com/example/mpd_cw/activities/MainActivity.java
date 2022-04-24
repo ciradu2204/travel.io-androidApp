@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.mpd_cw.R;
+import com.example.mpd_cw.repositories.Repository;
 
 //Cynthia Iradukunda - s1906581
 

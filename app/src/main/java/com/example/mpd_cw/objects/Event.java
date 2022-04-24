@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.objects;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.clustering.ClusterItem;

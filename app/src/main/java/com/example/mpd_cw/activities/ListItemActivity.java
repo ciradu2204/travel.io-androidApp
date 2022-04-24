@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
+
+import com.example.mpd_cw.R;
 //Cynthia Iradukunda - s1906581
 
 public class ListItemActivity extends AppCompatActivity {

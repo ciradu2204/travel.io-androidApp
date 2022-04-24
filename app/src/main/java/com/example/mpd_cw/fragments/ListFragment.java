@@ -1,4 +1,4 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,12 +15,17 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.mpd_cw.adapters.CustomAdapter;
+import com.example.mpd_cw.objects.Event;
+import com.example.mpd_cw.activities.ListItemActivity;
+import com.example.mpd_cw.R;
+import com.example.mpd_cw.viewModels.SharedViewModel;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
 //Cynthia Iradukunda - s1906581
 

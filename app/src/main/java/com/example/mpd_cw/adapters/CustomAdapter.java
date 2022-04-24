@@ -1,13 +1,12 @@
-package com.example.mpd_cw;
+package com.example.mpd_cw.adapters;
+//Cynthia Iradukunda - s1906581
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,15 +15,15 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import androidx.annotation.ColorRes;
-import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.appcompat.content.res.AppCompatResources;
 
+import com.example.mpd_cw.objects.Event;
+import com.example.mpd_cw.R;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-//Cynthia Iradukunda - s1906581
+
 public class CustomAdapter extends BaseAdapter implements Filterable {
 
     private final Activity mActivity;
@@ -32,7 +31,7 @@ public class CustomAdapter extends BaseAdapter implements Filterable {
     private List<Event> filteredList;
 
 
-    CustomAdapter(Activity mActivity, List<Event> list){
+    public CustomAdapter(Activity mActivity, List<Event> list){
         this.mActivity = mActivity;
         this.list = list;
         this.filteredList = list;
