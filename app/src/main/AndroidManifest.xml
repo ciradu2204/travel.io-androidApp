@@ -19,7 +19,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAX0a6vKpR0tZxX_i-Dp9aj0WNGSDGtf3o"/>
 
-        <activity android:name=".IncidentsActivity">
+        <activity android:name=".RoadEventsActivity">
 
         </activity>
         <activity android:name=".RoutePlannerActivity">

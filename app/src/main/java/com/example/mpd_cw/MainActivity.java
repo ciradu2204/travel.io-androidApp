@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+//Cynthia Iradukunda - s1906581
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if(isNetworkAvailable()){
-            Intent i = new Intent(this, IncidentsActivity.class);
+            Intent i = new Intent(this, RoadEventsActivity.class);
             startActivity(i);
         }else{
             Toast.makeText(this, "Enable internet first", Toast.LENGTH_SHORT).show();

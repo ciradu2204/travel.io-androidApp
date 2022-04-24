@@ -1,11 +1,9 @@
 package com.example.mpd_cw;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.RadioButton;
@@ -20,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+//Cynthia Iradukunda - s1906581
 
 public class filterActivity extends AppCompatActivity {
     private RadioGroup radioGroup;
@@ -140,7 +139,7 @@ public class filterActivity extends AppCompatActivity {
         sort = spinnerSort.getSelectedItem().toString();
 
 
-        Intent i = new Intent(this, IncidentsActivity.class);
+        Intent i = new Intent(this, RoadEventsActivity.class);
         i.putExtra("category", category);
         i.putExtra("road", road);
         i.putExtra("region", region);

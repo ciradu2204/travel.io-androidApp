@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    Cynthia Iradukunda - s1906581-->
+
 <LinearLayout
     android:orientation="vertical"
     style="@style/match_parentAll"
@@ -33,7 +35,7 @@
             android:layout_width="0dp"
             android:onClick="showIncidents"
             android:layout_weight="1"
-            android:text="@string/current_incidents"
+            android:text="Road Events"
             />
 
         <Button

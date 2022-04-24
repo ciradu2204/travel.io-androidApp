@@ -7,7 +7,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-
+//Cynthia Iradukunda - s1906581
 //Event object to get all the events
 public class Event implements Comparable<Event>, ClusterItem {
 

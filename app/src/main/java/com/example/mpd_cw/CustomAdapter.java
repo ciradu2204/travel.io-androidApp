@@ -24,7 +24,7 @@ import androidx.appcompat.content.res.AppCompatResources;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
+//Cynthia Iradukunda - s1906581
 public class CustomAdapter extends BaseAdapter implements Filterable {
 
     private final Activity mActivity;

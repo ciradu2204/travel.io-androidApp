@@ -40,6 +40,7 @@ import com.google.maps.android.ui.IconGenerator;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+//Cynthia Iradukunda - s1906581
 
 public class MapCustomFragment extends Fragment implements OnMapReadyCallback, ClusterManager.OnClusterClickListener<Event>, ClusterManager.OnClusterItemClickListener<Event>, ClusterManager.OnClusterItemInfoWindowClickListener<Event>{
 

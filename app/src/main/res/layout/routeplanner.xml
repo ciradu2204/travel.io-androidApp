@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    Cynthia Iradukunda - s1906581-->
+
 <LinearLayout style="@style/match_parentAll"
     android:layout_margin="10dp"
     android:orientation="vertical"

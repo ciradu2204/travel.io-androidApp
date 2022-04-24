@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
+//Cynthia Iradukunda - s1906581
 
 public class ListItemActivity extends AppCompatActivity {
 

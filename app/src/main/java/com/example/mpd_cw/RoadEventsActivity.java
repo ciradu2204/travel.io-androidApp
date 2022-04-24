@@ -23,8 +23,9 @@ import androidx.lifecycle.ViewModelProvider;
 import java.util.ArrayList;
 import java.util.Collections;
 
+//Cynthia Iradukunda - s1906581
 
-public class IncidentsActivity extends AppCompatActivity {
+public class RoadEventsActivity extends AppCompatActivity {
      private ListFragment listFragment;
      private MapCustomFragment mapFragment;
       private LinearLayout progressBarLayout;
@@ -84,7 +85,7 @@ public class IncidentsActivity extends AppCompatActivity {
             viewModel.setEventList(repository.getFullList());
         }else{
 
-            repository.processTask(viewModel, IncidentsActivity.this);
+            repository.processTask(viewModel, RoadEventsActivity.this);
         }
 
         setCompoundDrawable(leftMapDrawable, black, map);
@@ -276,7 +277,7 @@ public class IncidentsActivity extends AppCompatActivity {
 
     //a dialog to be displayed when filter does not find any information
     private void  noInfoDialog(){
-        new AlertDialog.Builder(IncidentsActivity.this)
+        new AlertDialog.Builder(RoadEventsActivity.this)
                 .setTitle("No events found")
                 .setMessage("Do you want to filter again?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
