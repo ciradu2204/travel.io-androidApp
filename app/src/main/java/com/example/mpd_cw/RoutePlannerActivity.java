@@ -111,16 +111,15 @@ public class RoutePlannerActivity extends AppCompatActivity {
 
         String userDate = journeyDate.getText().toString();
         String myFormat="MM/dd/yy";
-        String myFormat2 = "yyyy-MM-dd";
+        String myFormat2 = "yyyy-MM-dd'T'HH:mm:ss";
 
-        Date userChosenDate = new SimpleDateFormat(myFormat, Locale.UK).parse(userDate);
         SimpleDateFormat sdf = new SimpleDateFormat(myFormat2, Locale.UK);
 
-        //when a user
-        if(journeyDate.getText() == null){
+        //when a user clicks find event without the date
+        if(userDate.equals("")){
             journeyDate.setError("The Date is Required");
         }else{
-
+            Date userChosenDate = new SimpleDateFormat(myFormat, Locale.UK).parse(userDate);
             progressBarLayout.setVisibility(View.VISIBLE);
             ArrayList<Event> filteredList = new ArrayList<>();
             new Thread(new Runnable() {

@@ -116,8 +116,8 @@ public class ListFragment extends Fragment {
         Date dateEnd = new Date();
 
         try {
-            dateStart =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ", Locale.UK).parse(event.getEventStart());
-            dateEnd = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ", Locale.UK).parse(event.getEventEnd());
+            dateStart =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.UK).parse(event.getEventStart());
+            dateEnd = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.UK).parse(event.getEventEnd());
         } catch (ParseException e) {
             e.printStackTrace();
         }

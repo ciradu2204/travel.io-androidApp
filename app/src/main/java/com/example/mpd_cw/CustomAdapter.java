@@ -134,8 +134,10 @@ public class CustomAdapter extends BaseAdapter implements Filterable {
                         String region = event.getRegion().toLowerCase();
                         String status = event.getStatus().toLowerCase();
                         String category = event.getCategory().toLowerCase();
+                        String title = event.getTitle().toLowerCase();
+                        String country = event.getCountry().toLowerCase();
 
-                        if(road.contains(searchStr) || region.contains(searchStr) || status.contains(searchStr) || category.contains(searchStr)){
+                        if(road.contains(searchStr) || region.contains(searchStr) || status.contains(searchStr) || category.contains(searchStr) || title.contains(searchStr) || country.contains(searchStr)){
                             filteredEvents.add(event);
                         }
 
